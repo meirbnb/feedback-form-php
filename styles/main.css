@@ -1,0 +1,170 @@
+header{
+    height: 110px;
+}
+
+header h1{
+    padding: 10px;
+    font: bold 22px Helvetica;
+    text-align: center;
+}
+
+header .auth{
+    position: absolute;
+    top: 10px; right: 20px;
+    font: bold 18px Helvetica;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+header .navbar{
+    background-color: #000;
+    position: absolute;
+    left: 0px; right: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header .navbar a.navitem{
+    color: #fff;
+    text-decoration: none;
+    font: bold 18px Helvetica;
+    margin-bottom: -10px;
+}
+
+header .navbar a.navitem:hover{
+    color: gray;
+}
+
+header .navbar .selected{
+    border-bottom: 3px solid orange;
+    padding-bottom: 10px;
+}
+
+.reviews{
+    margin: 0 auto;
+    width: 700px;
+    padding: 10px;
+}
+
+.reviews .review{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reviews .review img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.reviews .review .info{
+    margin-right: 50px;
+}
+
+.reviews .review span{
+    margin-bottom: 5px;
+}
+
+.reviews .review .name{
+    display: block;
+    font: bold 20px Helvetica;
+
+}
+
+.reviews .review .email{
+    display: block;
+    font: italic 16px Helvetica;
+}
+
+.reviews .review .message{
+    display: block;
+    font: normal 16px Helvetica;
+    margin-top: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 415px;
+}
+
+.wrapper h2{
+    font: bold 24px Helvetica;
+    text-align: center;
+}
+
+.wrapper .error{
+    display: none;
+    color: #fff;
+    background-color: brown;
+    font: bold 16px Helvetica;
+    padding: 5px;
+    width: 400px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper form input[type=text]{
+    width: 335px;
+    font: normal 18px Helvetica;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.wrapper form input#name{
+    margin-left: 15px;
+}
+
+.wrapper form label{
+    font: bold 18px Helvetica;
+}
+
+.wrapper form textarea{
+    width: 400px;
+    height: 100px;
+    padding: 5px;
+    font: normal 18px Helvetica;
+    resize: none;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.wrapper form label.attach{
+    padding: 10px 135px;
+    font: bold 16px Helvetica;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.wrapper form input[type=file]{
+    visibility: hidden;
+}
+
+.wrapper form button{
+    padding: 10px 22px;
+    font: bold 16px Helvetica;
+    border: 2px solid gray;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: -25px;
+}
+
+footer{
+    background-color: #000;
+    position: relative;
+    left: -10px; right: -10px;
+    bottom: -10px;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+footer .copyright{
+    color: #fff;
+    font: bold 16px Helvetica;
+}
